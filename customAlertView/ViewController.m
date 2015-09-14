@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "customAlertView.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    customAlertView*custom=[[[NSBundle mainBundle] loadNibNamed:@"customAlertView" owner:self options:nil] lastObject];
+//    custom.frame=self.view.bounds;
+//    [self.view addSubview:custom];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +27,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnClicked:(UIButton *)sender {
+    [customAlertView showInView:self.view];
+}
 @end

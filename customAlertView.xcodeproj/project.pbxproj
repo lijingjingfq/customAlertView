@@ -14,6 +14,8 @@
 		18064C971BA65B50007937ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18064C961BA65B50007937ED /* Images.xcassets */; };
 		18064C9A1BA65B50007937ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18064C981BA65B50007937ED /* LaunchScreen.xib */; };
 		18064CA61BA65B50007937ED /* customAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18064CA51BA65B50007937ED /* customAlertViewTests.m */; };
+		18064CB11BA65BBD007937ED /* customAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18064CB01BA65BBD007937ED /* customAlertView.m */; };
+		18064CB51BA65D44007937ED /* customAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18064CB41BA65D44007937ED /* customAlertView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		18064C9F1BA65B50007937ED /* customAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18064CA41BA65B50007937ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18064CA51BA65B50007937ED /* customAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customAlertViewTests.m; sourceTree = "<group>"; };
+		18064CAF1BA65BBD007937ED /* customAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customAlertView.h; sourceTree = "<group>"; };
+		18064CB01BA65BBD007937ED /* customAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customAlertView.m; sourceTree = "<group>"; };
+		18064CB41BA65D44007937ED /* customAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customAlertView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				18064C8E1BA65B50007937ED /* AppDelegate.m */,
 				18064C901BA65B50007937ED /* ViewController.h */,
 				18064C911BA65B50007937ED /* ViewController.m */,
+				18064CAF1BA65BBD007937ED /* customAlertView.h */,
+				18064CB01BA65BBD007937ED /* customAlertView.m */,
+				18064CB41BA65D44007937ED /* customAlertView.xib */,
 				18064C931BA65B50007937ED /* Main.storyboard */,
 				18064C961BA65B50007937ED /* Images.xcassets */,
 				18064C981BA65B50007937ED /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				18064C951BA65B50007937ED /* Main.storyboard in Resources */,
 				18064C9A1BA65B50007937ED /* LaunchScreen.xib in Resources */,
+				18064CB51BA65D44007937ED /* customAlertView.xib in Resources */,
 				18064C971BA65B50007937ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				18064C921BA65B50007937ED /* ViewController.m in Sources */,
 				18064C8F1BA65B50007937ED /* AppDelegate.m in Sources */,
+				18064CB11BA65BBD007937ED /* customAlertView.m in Sources */,
 				18064C8C1BA65B50007937ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
